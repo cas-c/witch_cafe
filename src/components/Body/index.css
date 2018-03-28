@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Sacramento');
+
+.app-body {
+    min-width: 380px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.body-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.body-item {
+    margin: 1rem auto;
+    background-color: #fff;
+    height: 100%;
+    width: 15rem;
+    min-width: 350px;
+    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+}
+
+.body-image {
+    min-width: 350px;
+}
+
+.body-rows {
+    min-width: 500px;
+}
+.body-rows-right {
+    margin: 8rem 0 0;
+}
+
+.body-row-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+}
+
+.body-row-item-contact {
+    background-color: #fff;
+    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+    text-align: center;
+}
+
+.body-title-head {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+}
+
+.body-text {
+    font-size: 1.25rem;
+    text-indent: 2em;
+}
+
+.info-boxes {
+    width: 90%;
+    margin: 0 1rem;
+}
+
+.info-boxes div {
+    display: inline-block;
+    margin-right: .75rem;
+    width: 30%;
+    min-width: 150px;
+}
+
+.artists {
+    margin: 0 1rem;
+}
+
+.artists div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: .5rem;
+}
