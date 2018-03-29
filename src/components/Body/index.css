@@ -1,78 +1,79 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal|Sacramento');
 
 .app-body {
-    min-width: 380px;
     font-family: 'Arsenal', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 75%;
+    padding: 0 1em;
+    margin: 5% auto;
 }
 
-.body-wrapper {
-    width: 80vw;
-    margin: 0 auto;
-    padding: 1rem;
+.body-left {
+    margin: auto;
 }
 
-.body-item {
-    margin: 1rem auto;
-    background-color: #fff;
-    height: 100%;
-    width: 15rem;
-    min-width: 350px;
-    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    padding-left: 1%;
 }
 
-.body-image {
-    min-width: 350px;
+.witch-cafe-logo {
+    margin: auto;
 }
 
-.body-rows {
-    min-width: 500px;
-}
-.body-rows-right {
-    margin: 8rem 0 0;
-}
-
-.body-row-item {
-    padding: 1rem;
-    margin: 1rem 0;
-    background-color: #fff;
-    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
-.body-row-item-contact {
-    background-color: #fff;
-    box-shadow: 0 .4rem 1.2rem .2rem rgba(0,0,0,.05);
+.body-left-item {
+    padding: 1em;
+    margin: auto;
     text-align: center;
+    min-width: 150px;
+}
+
+
+
+.body-right {
+    margin: auto;
+    max-width: 550px;
 }
 
 .body-title-head {
     font-family: 'Sacramento', cursive;
-    font-size: 2.5rem;
-}
-
-.body-text {
-    font-size: 1.25rem;
-    text-indent: 2em;
-}
-
-.info-boxes {
-    width: 90%;
-    margin: 0 1rem;
-}
-
-.info-boxes div {
-    display: inline-block;
-    margin-right: .75rem;
-    width: 30%;
-    min-width: 150px;
+    font-size: 200%;
 }
 
 .artists {
-    margin: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.artists div {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: .5rem;
+.artist {
+    margin: auto;
+    max-width: 150px;
+}
+
+
+.releases {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.release {
+    margin: auto;
+    max-width: 150px;
 }
