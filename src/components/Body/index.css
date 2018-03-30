@@ -54,6 +54,10 @@
 .body-title-head {
     font-family: 'Sacramento', cursive;
     font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .artists {

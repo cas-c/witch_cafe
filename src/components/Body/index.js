@@ -28,7 +28,7 @@ const Body = () => (
                 Our goal is to spread art that we love.
             </div>
             <div className='box'>
-                <div className='body-title-head'>House Blends <small className='is-pulled-right'><em>our artists</em></small></div>
+                <div className='body-title-head'><span>House Blends</span><span><small><em>our artists</em></small></span></div>
                 <div className='artists'>
                     <div className='artist'>
                         <a title='nyanners' target='_blank' rel='noopener noreferrer' href='https://twitter.com/taylornyanners'>
@@ -48,7 +48,7 @@ const Body = () => (
                 </div>
             </div>
             <div className='box'>
-                <div className='body-title-head'>Menu <small className='is-pulled-right'><em>our releases</em></small></div>
+                <div className='body-title-head'><span>Menu</span><span><small><em>our releases</em></small></span></div>
                 <div className='releases'>
                     <div className='release'>
                         <a title='Gucci Gang' target='_blank' rel='noopener noreferrer' href='http://gucci.witch.cafe'>
