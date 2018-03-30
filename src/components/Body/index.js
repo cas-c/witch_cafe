@@ -52,7 +52,7 @@ const Body = () => (
                 <div className='releases'>
                     <div className='release'>
                         <a title='Gucci Gang' target='_blank' rel='noopener noreferrer' href='http://gucci.witch.cafe'>
-                            <img alt='smart url' src='http://is4.mzstatic.com/image/thumb/Music128/v4/52/c0/04/52c0040f-bdd2-b39a-3d6e-4b3cd7d57053/source/450x450bb.jpg' />
+                            <img alt='smart url' src='https://i.scdn.co/image/be022cfec18a6913fc46131723c7ea48c037a013' />
                         </a>
                     </div>
                     <div className='release'>
