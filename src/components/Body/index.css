@@ -73,11 +73,16 @@
 
 .releases {
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .release {
-    margin: auto;
+    margin: auto auto 1em;
     max-width: 150px;
+}
+
+.release img {
+    border: 1px solid pink;
 }

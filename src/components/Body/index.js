@@ -51,6 +51,11 @@ const Body = () => (
                 <div className='body-title-head'><span>Menu</span><span><small><em>our releases</em></small></span></div>
                 <div className='releases'>
                     <div className='release'>
+                        <a title='Nectar' target='_blank' rel='noopener noreferrer' href='http://nectar.witch.cafe'>
+                            <img alt='smart url' src='https://i1.sndcdn.com/artworks-000328392006-0lw6ze-t500x500.jpg' />
+                        </a>
+                    </div>
+                    <div className='release'>
                         <a title='Gucci Gang' target='_blank' rel='noopener noreferrer' href='http://gucci.witch.cafe'>
                             <img alt='smart url' src='https://i.scdn.co/image/be022cfec18a6913fc46131723c7ea48c037a013' />
                         </a>
@@ -63,6 +68,11 @@ const Body = () => (
                     <div className='release'>
                         <a title='Black Friday Mixtape' target='_blank' rel='noopener noreferrer' href='https://twitter.com/glosstradamus/status/937018008588787713'>
                             <img alt='bad vibez' src='https://i.scdn.co/image/bca5ef1204434babf5eca624460c3fe93381c09e' />
+                        </a>
+                    </div>
+                    <div className='release'>
+                        <a title='Gloss Coughin' target='_blank' rel='noopener noreferrer' href='https://open.spotify.com/album/7JfNjsKt6jvUKm3tEeLiYU?si=10uSUtNrReyo0Pw4hnSo_Q'>
+                            <img alt='bad vibez' src='https://i.scdn.co/image/da5e46e089543966798e5ccc327cdb76a6ed390c' />
                         </a>
                     </div>
                 </div>
