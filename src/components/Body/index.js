@@ -61,7 +61,7 @@ const Body = () => (
                         </a>
                     </div>
                     <div className='release'>
-                        <a title='Bad Vibez (single)' target='_blank' rel='noopener noreferrer' href='https://open.spotify.com/track/3rd4qsXdIQVeX4FgpkFj8b?si=8JKZKUNWTO6ZQgVne1mNBQ'>
+                        <a title='Bad Vibez (single)' target='_blank' rel='noopener noreferrer' href='http://badvibez.witch.cafe'>
                             <img alt='bad vibez' src='https://i.scdn.co/image/84fc354cd425731bc77aa34f475eeae62ba7cdc5' />
                         </a>
                     </div>
