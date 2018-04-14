@@ -18,6 +18,9 @@ const Body = () => (
                 <div className='body-left-item'>
                     <a href='https://patreon.com/lipgloss' rel="noopener noreferrer" target='_blank'>support us</a>
                 </div>
+                <div className='body-left-item'>
+                    <a href='https://discord.gg/G9fV7KC' rel="noopener noreferrer" target='_blank'>our discord</a>
+                </div>
             </div>
         </div>
         <div className='body-right'>
