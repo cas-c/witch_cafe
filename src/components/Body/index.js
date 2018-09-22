@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../../images/WitchCafeLBlack2.png';
+import lip from "../../images/lip.png";
+import mc from "../../images/mc.jpg";
+import tay from "../../images/tay.jpg";
 import './index.css';
 
 const Body = () => (
@@ -16,7 +19,7 @@ const Body = () => (
                     est. 2017
                 </div>
                 <div className='body-left-item'>
-                    <a href='https://patreon.com/lipgloss' rel="noopener noreferrer" target='_blank'>support us</a>
+                    <a href='https://twitter.com/WitchCafeLabel' rel="noopener noreferrer" target='_blank'>twitter</a>
                 </div>
                 <div className='body-left-item'>
                     <a href='https://discord.gg/G9fV7KC' rel="noopener noreferrer" target='_blank'>our discord</a>
@@ -24,35 +27,45 @@ const Body = () => (
             </div>
         </div>
         <div className='body-right'>
-            <div className='box'>
+            <div className='box right-item'>
                 <div className='body-title-head'>For Our Guests And Customers:</div>
                 Witch Cafe is a <a rel="noopener noreferrer" href='https://en.wikipedia.org/wiki/Netlabel' target='_blank'>netlabel*</a> serving underground, independent electronic and hip-hop musicians and their fans by distributing art through streaming companies.  Witch Cafe seeks to grow audiences for artists by collaborating with playlist curators, negotiating licensing fees and more.
                 <br /><br />
                 Our goal is to spread art that we love.
             </div>
-            <div className='box'>
+            <div className='box right-item'>
                 <div className='body-title-head'><span>House Blends</span><span><small><em>our artists</em></small></span></div>
                 <div className='artists'>
                     <div className='artist'>
                         <a title='nyanners' target='_blank' rel='noopener noreferrer' href='https://twitter.com/taylornyanners'>
-                            <img alt='twitter' src='https://pbs.twimg.com/profile_images/974347252721442817/tYRB_g37_400x400.jpg' />
+                            <img alt='twitter' src={tay} />
                         </a>
                     </div>
                     <div className='artist'>
                         <a title='magic circuit' target='_blank' rel='noopener noreferrer' href='https://twitter.com/magic_circuit'>
-                            <img alt='twitter' src='https://pbs.twimg.com/profile_images/934685356556980225/yv2UbwkA_400x400.jpg' />
+                            <img alt='twitter' src={mc} />
                         </a>
                     </div>
                     <div className='artist'>
                         <a title='lipgloss' target='_blank' rel='noopener noreferrer' href='https://twitter.com/glosstradamus'>
-                            <img alt='twitter' src='https://pbs.twimg.com/profile_images/904034322272935940/zFWBLnID_400x400.jpg' />
+                            <img alt='twitter' src={lip} />
                         </a>
                     </div>
                 </div>
             </div>
-            <div className='box'>
+            <div className='box right-item'>
                 <div className='body-title-head'><span>Menu</span><span><small><em>our releases</em></small></span></div>
                 <div className='releases'>
+                    <div className='release'>
+                        <a title='Magic Circuit' target='_blank' rel='noopener noreferrer' href='http://mc.witch.cafe'>
+                            <img alt='smart url' src='https://i1.sndcdn.com/artworks-000405471021-j6ixxy-t500x500.jpg' />
+                        </a>
+                    </div>
+                    <div className='release'>
+                        <a title='Witch' target='_blank' rel='noopener noreferrer' href='http://magic.witch.cafe'>
+                            <img alt='smart url' src='https://i1.sndcdn.com/artworks-000335302554-79bn4h-t500x500.jpg' />
+                        </a>
+                    </div>
                     <div className='release'>
                         <a title='Nectar' target='_blank' rel='noopener noreferrer' href='http://nectar.witch.cafe'>
                             <img alt='smart url' src='https://i1.sndcdn.com/artworks-000328392006-0lw6ze-t500x500.jpg' />
