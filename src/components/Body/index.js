@@ -22,7 +22,7 @@ const Body = () => (
                     <a href='https://twitter.com/WitchCafeLabel' rel="noopener noreferrer" target='_blank'>twitter</a>
                 </div>
                 <div className='body-left-item'>
-                    <a href='https://discord.gg/G9fV7KC' rel="noopener noreferrer" target='_blank'>our discord</a>
+                    <a href='https://discord.gg/eW7WNyG' rel="noopener noreferrer" target='_blank'>our discord</a>
                 </div>
             </div>
         </div>
